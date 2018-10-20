@@ -37,7 +37,7 @@ I use macOS, but these instructions should be similar for UNIX-like systems.
 - `python -m ipykernel install --user --name KERNEL_NAME --display-name DISPLAY_NAME`
 
 ## For example:
-```python
+```console
 conda create -n awesome_project --file environment.yml python=3.7
 source activate awesome_project
 conda install ipykernel
